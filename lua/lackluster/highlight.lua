@@ -203,8 +203,8 @@ local highlight = function(theme, color)
                 spec.fg('@markup.heading', theme.ui.fg_title),
                 spec.fg('@markup.quote', color.gray6),
                 spec.fg('@markup.strong', color.gray4),
-                spec.fg('@markup.italic', color.gray4),
-                spec.fg('@markup.strikethrough', color.gray4),
+                spec.fg('@markup.italic', color.gray5),
+                spec.fg('@markup.strikethrough', color.gray3),
                 spec.op('@markup.underline', {
                     underline = true,
                 }),
